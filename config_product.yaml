@@ -1,0 +1,7 @@
+
+MYSQL:
+  HOST: '172.16.10.8'
+  PORT: 3306
+  USER: 'product'
+  PASSWORD: 'pl,okm098'
+  NAME: 'ordermanagement_pro'

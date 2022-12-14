@@ -1,0 +1,23 @@
+version: '3.8'
+services:
+  ordermanagement:
+    image: ordermanagement:1.0
+    restart: always
+    environment:
+      - ENV=debug
+    container_name: "compose-ordermanagement-debug"
+    volumes:
+      - "./:/app:rw"
+      - "/home/trainer/workshop/ordermanagement/statics:/app/statics"
+    command:
+      - /bin/sh
+      - -c
+      - |
+        cd /app && python manage.py runserver 0.0.0.0:8000
+    ports:
+      - "8999:8000"
+    networks:
+      - app_net
+
+networks:
+  app_net:

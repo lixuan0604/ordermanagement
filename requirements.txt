@@ -1,0 +1,8 @@
+pymysql
+python-docx
+backports.zoneinfo
+Django
+django-cors-headers
+mysqlclient
+sqlparse
+PyYaml

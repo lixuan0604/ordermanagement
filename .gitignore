@@ -1,0 +1,14 @@
+.idea/*
+.DS_Store
+*migrations*
+ordermanagement/__pycache__/*
+ordermanagement/apps/order/__pycache__/*
+ordermanagement/apps/task/__pycache__/*
+ordermanagement/apps/users/__pycache__/*
+ordermanagement/utils/__pycache__/*
+ordermanagement/Lib/
+ordermanagement/Scripts/
+ordermanagement/pyvenv.cfg
+ordermanagement_env/
+statics/
+logs/meiduo.log
